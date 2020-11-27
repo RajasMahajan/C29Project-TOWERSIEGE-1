@@ -12,7 +12,7 @@ class Ball{
     }
     display(){
        imageMode(CENTER);
-       image(balli,this.x,this.y,this.radius,this.radius);
+       image(balli,this.body.position.x,this.body.position.y,this.radius,this.radius);
         
     }
 }

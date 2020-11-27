@@ -101,10 +101,11 @@ function draw() {
   box18.display();
   box19.display();
   slingshot.display();
-  mouseDragged();
-  mouseReleased();
-  keyPressed();
+  //mouseDragged();
+  //mouseReleased();
+  //keyPressed();
 }
+ 
 
 function mouseDragged(){
   if (gameState!=="launched"){
