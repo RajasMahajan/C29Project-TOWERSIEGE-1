@@ -5,7 +5,7 @@ class Ball{
         this.y=y;
         this.radius=50;
         var ops={
-            isStatic:false
+            isStatic:false,
         }
         this.body=Bodies.circle(x,y,50,ops);
         World.add(world,this.body);

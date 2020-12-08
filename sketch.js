@@ -30,6 +30,20 @@ var box17;
 var box18;
 var box19;
 var box20;
+var box21;
+var box22;
+var box23;
+var box24;
+var box25;
+var box26;
+var box27;
+var box28;
+var box29;
+var box30;
+var box31;
+var box32;
+var box33;
+var box34;
 function preload(){
   balli=loadImage("polygon.png");
 
@@ -65,8 +79,24 @@ function setup() {
   box16=new Box(500,200);
   box17=new Box(550,200);
   box18=new Box(480,100);
-  box19=new Box(530,100);
+  box19=new Box(520,100);
+
+
+  
+  box20=new Box(895,200);
+  box21=new Box(945,200);
+  box22=new Box(995,200);
+  box23=new Box(1045,200);
+  box24=new Box(1095,200);
+  box25=new Box(840,200);
+  box26=new Box(910,100);
+  box27=new Box(960,100);
+  box28=new Box(1000,100);
+  box29=new Box(1050,100);
+  box30=new Box(900,0);
+  box31=new Box(970,0);
   //ball not box
+ 
   ball=new Ball(200,200);
   slingshot=new SlingShot(ball.body,{x:200,y:200});
   Engine.run(engine);
@@ -100,9 +130,25 @@ function draw() {
   box17.display();
   box18.display();
   box19.display();
+  box20.display();
+  box21.display();
+  box22.display();
+  box23.display();
+  box24.display();
+  box25.display();
+  box26.display();
+  box27.display();
+  box28.display();
+  box29.display();
+  box30.display();
+  box31.display();
   slingshot.display();
   //mouseDragged();
   //mouseReleased();
+
+//  if(keyDown(LEFT_ARROW)){
+//    ground2.position.x=ground2.position.x-5;
+//  }
   //keyPressed();
 }
  

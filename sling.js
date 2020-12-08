@@ -19,16 +19,16 @@ class SlingShot{
        //strokeWeight(100);
      //  stroke("black")
    // line(this.sling.bodyA.position.x,this.sling.bodyA.position.y,this.pointB.x,this.pointB.y);
-  // if (this.sling.bodyA);
-//{ 
+if (this.sling.bodyA)
+{ 
   var pointA = this.sling.bodyA;
   var pointB = this.pointB;
     strokeWeight(3); 
     stroke("white"); 
   line( pointA.position.x,pointA.position.y, pointB.x, pointB.y);
-// }
+ }
    }
    fly(){
-    this.bodyA = null;
+    this.sling.bodyA = null;
   }
 }
